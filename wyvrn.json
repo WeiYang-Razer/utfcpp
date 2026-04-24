@@ -1,0 +1,22 @@
+{
+  "name": "utfcpp",
+  "version": "4.0.9.0",
+  "schemaVersion": 2,
+  "kind": "HeaderOnlyLib",
+  "description": "TODO: one-line description of utfcpp",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DUTF8_TESTS=OFF",
+      "-DUTF8_SAMPLES=OFF"
+    ],
+    "installDir": "install"
+  }
+}
